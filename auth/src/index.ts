@@ -5,9 +5,9 @@ const app = express();
 app.use(json());
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("hello auth hello");
+  res.send("hello aut");
 });
 
 app.listen(3000, () => {
-  console.log("auth service runningg");
+  console.log("auth service running");
 });
